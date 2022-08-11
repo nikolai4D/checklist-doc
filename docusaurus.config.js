@@ -9,8 +9,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Checklist Documentation',
-  tagline: 'Tailored checklist',
+  title: 'ChecklistApp',
+  tagline: 'Quickly generate and share checklists',
   url: 'https://github.com/',
   baseUrl: '/checklist-doc/',
   onBrokenLinks: 'throw',
@@ -65,15 +65,20 @@ const config = {
         },
         items: [
           {
+            to: 'docs/introduction',
+            position: 'left',
+            label: 'Introduction',
+          },
+          {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
             label: 'Docs',
           },
           {
             href: 'https://www.google.com',
             position: 'left',
-            label: 'demo',
+            label: 'Demo',
           }
           ]
       },
@@ -85,12 +90,12 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Us',
             items: [
               {
                 label: 'Nikdev',

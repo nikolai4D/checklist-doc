@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Save an share checklists',
+    title: 'Save and share checklists',
     Svg: require('@site/static/img/cloud-data.png').default,
     description: (
       <>
